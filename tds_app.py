@@ -7,7 +7,7 @@ st.set_page_config(page_title = 'TDS GA', page_icon = ':wave:', layout = 'wide')
 
 st.title('Odd or Even')
 
-number = st.number_input(step=int,'Enter the number')
+number = st.number_input('Enter the number',step=int)
 
 if number%2==0:
   st.write('The Number {} is even'.format(number))
