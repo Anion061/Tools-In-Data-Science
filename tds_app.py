@@ -9,7 +9,7 @@ st.title('Odd or Even')
 
 number = st.number_input('Enter the number')
 
-if number//2==0:
+if number%2==0:
   st.write('The Number {} is even'.format(number))
 else:
   st.write('The Number {} is odd'.format(number))
